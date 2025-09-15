@@ -1,7 +1,8 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "cyberpunk instagram",
+      prompt: "
+social medi",
     };
 
     const response = await env.AI.run(
